@@ -1,0 +1,74 @@
+body,
+html {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.heads {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.container {
+  background-image: url("nature.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: -8px;
+  height: 100%;
+  overflow: auto;
+}
+
+.condition {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 30px 3rem;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+}
+#places {
+  height: 20px;
+  width: 200px;
+  border: none;
+  background: #1e1e1e;
+  outline: none;
+  color: rgb(182, 174, 174);
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  align-self: center;
+}
+.places-span {
+  position: relative;
+}
+
+.places-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#places::placeholder {
+  color: rgb(182, 174, 174);
+}
+
+.places-div i {
+  position: absolute;
+  left: 8px;
+  top: 18px;
+  color: rgb(182, 174, 174);
+}
+
+.weather-title {
+  font-size: 16px;
+}
+
+.weather-selector {
+  background-color: #111111;
+  border-radius: 10px;
+  padding: 6px;
+}
